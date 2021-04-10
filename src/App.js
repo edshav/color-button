@@ -26,12 +26,17 @@ function App() {
       >
         Change to {getButtonColor(buttonColor)}
       </button>
-      <input
-        type="checkbox"
-        aria-checked={isDisabled}
-        checked={isDisabled}
-        onChange={onCheckboxCkick}
-      />
+      <br />
+      <br />
+      <label>
+        Disable button
+        <input
+          type="checkbox"
+          aria-checked={isDisabled}
+          checked={isDisabled}
+          onChange={onCheckboxCkick}
+        />
+      </label>
     </div>
   );
 }
